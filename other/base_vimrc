@@ -1,0 +1,49 @@
+" Easy version Vimrc
+
+set nocompatible
+filetype off
+
+if has("win32") || has("win64")
+  set rtp+=$VIM\vimfiles\bundle\vundle
+  call vundle#rc('$VIM\vimfiles\bundle')
+else
+  set rtp+=~/.vim/bundle/vundle/
+  call vundle#rc()
+endif
+
+Bundle 'gmarik/vundle'
+
+<% @vundles.each do |vundle| %><%= "Bundle '#{vundle}'" %>
+<% end %>
+
+filetype plugin indent on
+
+" =============
+"  custom key
+" =============
+" add a new line without entering insert mode
+noremap <CR> o<Esc>
+
+" map backspce to delete a character
+noremap <BS> X
+
+" map ctrl+c and ctrl+v
+noremap <C-c> y
+noremap <C-v> P
+
+" cancel searched highlight
+noremap ; :nohlsearch<CR>
+
+" navigating for long lines
+map j gj
+map k gk
+map <UP> gk
+map <DOWN> gj
+imap <UP> <ESC>gk<RIGHT>i
+imap <DOWN> <ESC>gj<RIGHT>i
+
+" select ALL
+map <C-A> ggVG
+
+" Use neocomplcache
+let g:neocomplcache_enable_at_startup = 1
