@@ -42,6 +42,10 @@ godlygeek/tabular
 Shougo/neocomplcache.vim
 Shougo/neosnippet
 terryma/vim-multiple-cursors
+xuhdev/SingleCompile
+thinca/vim-quickrun
+Shougo/unite.vim
+Shougo/vimfiler.vim
 ]
 
 @vundles.sort! do |x, y|
@@ -132,4 +136,12 @@ Shougo/neocomplcache.vim
 Shougo/neosnippet
 " 多重选取
 terryma/vim-multiple-cursors
+" 快速编译
+xuhdev/SingleCompile
+" 快速执行文件
+thinca/vim-quickrun
+" 强大的寻找器
+Shougo/unite.vim
+" 与nerdtree相似的插件（依赖Shougo/unite.vim）
+Shougo/vimfiler.vim
 =end
