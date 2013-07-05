@@ -61,15 +61,13 @@ Launch `vim`, run `:BundleInstall!`
 
     c. `<F4>` to toggle Tagbar window.
 
-    d. `<F5>` is the script runner, according to it's filetype, it will run Ruby(*.rb) ,Python(*.py) or Javascript(*.js) file(SpiderMonkey is needed), even CoffeeScript(*.coffee, but you may have to install CoffeeScript first). If the filetype is VimScript, `<F5>` will run `:source %` for you.
+    d. `<F7>` to switch to previous tab, and `<F8>` to the next tab.
 
-    e. `<F7>` to switch to previous tab, and `<F8>` to the next tab.
+    e. hit `<ctrl>p` will launch a quick window to match keywords from your current working directory, not only file name, but also path name. And `<ctrl>w u` will match from your MRU(Mostly Recent Used) files, which is also frequently used.
 
-    f. hit `<ctrl>p` will launch a quick window to match keywords from your current working directory, not only file name, but also path name. And `<ctrl>w u` will match from your MRU(Mostly Recent Used) files, which is also frequently used.
+    f. hit `<leader>` twice to toggle comment on and off.
 
-    g. hit `<leader>` twice to toggle comment on and off.
-
-    h. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
+    g. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
 
 4. Remove tailing whitespace automatically while saving.
 
