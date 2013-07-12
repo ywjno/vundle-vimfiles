@@ -119,8 +119,12 @@ cnoremap %% <C-R>=expand('%:h').'/'<CR>
 " ======================================
 "  custom by myself
 " ======================================
-" Color Scheme for Tomorrow-Night
-colorscheme Tomorrow-Night
+" Color Scheme for molokai
+colorscheme molokai
+
+let g:molokai_original = 1
+let g:rehash256 = 1
+set background=dark
 
 " show file name in tablabel
 set guitablabel=%t
