@@ -15,3 +15,9 @@ autocmd! BufNewFile,BufRead *.zsh-theme set filetype=zsh
 
 " Nginx Config
 autocmd! BufNewFile,BufRead nginx.conf set filetype=nginx
+
+" C
+autocmd FileType c setlocal shiftwidth=4 tabstop=4
+
+" Java
+autocmd FileType java setlocal shiftwidth=4 tabstop=4
