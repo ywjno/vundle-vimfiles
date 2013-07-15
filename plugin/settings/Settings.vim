@@ -144,6 +144,11 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
+noremap <C-Down>  <C-w>j
+noremap <C-Up>    <C-w>k
+noremap <C-Left>  <C-w>h
+noremap <C-Right> <C-w>l
+
 highlight whitespaceEOL term=reverse ctermbg=red guibg=red
 match whitespaceEOL /\s\+\(\%#\)\@!$/
 syntax match whitespaceEOL /\s\+$/
