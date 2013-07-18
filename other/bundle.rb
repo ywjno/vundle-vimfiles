@@ -46,6 +46,7 @@ xuhdev/SingleCompile
 thinca/vim-quickrun
 Shougo/unite.vim
 Shougo/vimfiler.vim
+AndrewRadev/splitjoin.vim
 ]
 
 @vundles.sort! do |x, y|
@@ -144,4 +145,6 @@ thinca/vim-quickrun
 Shougo/unite.vim
 " 与nerdtree相似的插件（依赖Shougo/unite.vim）
 Shougo/vimfiler.vim
+" 快速拆开、合并行（gS、gJ）
+AndrewRadev/splitjoin.vim
 =end
