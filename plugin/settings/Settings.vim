@@ -62,6 +62,7 @@ set shortmess=Ia                      " remove splash wording
 set visualbell
 set noerrorbells
 set t_vb=
+set vb t_vb=
 set novb
 set tm=500
 
