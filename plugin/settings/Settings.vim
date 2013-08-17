@@ -160,3 +160,5 @@ syntax match whitespaceEOL /\s\+$/
 syntax match ColorColumn /\%>80v.\+/
 set list "show space and end of line"
 set listchars=tab:..,trail:.
+
+map <leader>p "*p
