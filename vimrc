@@ -58,6 +58,15 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'Shougo/vimfiler.vim'
 
+Bundle 'jnurmine/Zenburn'
+Bundle 'sjl/badwolf'
+Bundle 'tomasr/molokai'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'wesgibbs/vim-irblack'
+Bundle 'jonathanfilip/vim-lucius'
+Bundle 'jpo/vim-railscasts-theme'
+Bundle 'ywjno/vim-tomorrow-theme'
+
 
 filetype plugin indent on
 

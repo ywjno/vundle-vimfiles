@@ -47,9 +47,20 @@ AndrewRadev/splitjoin.vim
 mattn/emmet-vim
 junegunn/vim-easy-align
 tomtom/tcomment_vim
-]
+].sort do |x, y|
+  x.split(/\//)[1] <=> y.split(/\//)[1]
+end
 
-@vundles.sort! do |x, y|
+@theme_vundles = %w[
+jnurmine/Zenburn
+jpo/vim-railscasts-theme
+altercation/vim-colors-solarized
+wesgibbs/vim-irblack
+ywjno/vim-tomorrow-theme
+tomasr/molokai
+sjl/badwolf
+jonathanfilip/vim-lucius
+].sort do |x, y|
   x.split(/\//)[1] <=> y.split(/\//)[1]
 end
 
@@ -147,4 +158,15 @@ mattn/emmet-vim
 junegunn/vim-easy-align
 " 代码注释
 tomtom/tcomment_vim
+=end
+
+=begin
+jnurmine/Zenburn
+jpo/vim-railscasts-theme
+altercation/vim-colors-solarized
+wesgibbs/vim-irblack
+ywjno/vim-tomorrow-theme
+tomasr/molokai
+sjl/badwolf
+jonathanfilip/vim-lucius
 =end
