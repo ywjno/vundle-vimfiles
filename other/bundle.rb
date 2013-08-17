@@ -10,7 +10,6 @@ c9s/colorselector.vim
 kien/ctrlp.vim
 Raimondi/delimitMate
 vim-scripts/matchit.zip
-scrooloose/nerdcommenter
 scrooloose/nerdtree
 cakebaker/scss-syntax.vim
 ervandew/supertab
@@ -33,12 +32,10 @@ vim-ruby/vim-ruby
 slim-template/vim-slim
 tpope/vim-surround
 tpope/vim-unimpaired
-mattn/zencoding-vim
 garbas/vim-snipmate
 MarcWeber/vim-addon-mw-utils
 tomtom/tlib_vim
 honza/vim-snippets
-godlygeek/tabular
 Shougo/neocomplcache.vim
 Shougo/neosnippet
 terryma/vim-multiple-cursors
@@ -47,6 +44,9 @@ thinca/vim-quickrun
 Shougo/unite.vim
 Shougo/vimfiler.vim
 AndrewRadev/splitjoin.vim
+mattn/emmet-vim
+junegunn/vim-easy-align
+tomtom/tcomment_vim
 ]
 
 @vundles.sort! do |x, y|
@@ -73,8 +73,6 @@ kien/ctrlp.vim
 Raimondi/delimitMate
 " 匹配tab
 vim-scripts/matchit.zip
-" 代码注释
-scrooloose/nerdcommenter
 " 文件浏览
 scrooloose/nerdtree
 " scss支持
@@ -119,8 +117,6 @@ slim-template/vim-slim
 tpope/vim-surround
 " 快速上下移动当前行（'[e' ']e'）
 tpope/vim-unimpaired
-" zencoding
-mattn/zencoding-vim
 " 代码片段
 garbas/vim-snipmate
 " （garbas/vim-snipmate依赖）
@@ -129,8 +125,6 @@ MarcWeber/vim-addon-mw-utils
 tomtom/tlib_vim
 " 代码片段（garbas/vim-snipmate）
 honza/vim-snippets
-" 对齐等号
-godlygeek/tabular
 " 代码提示
 Shougo/neocomplcache.vim
 " （Shougo/neocomplcache.vim依赖）
@@ -147,4 +141,10 @@ Shougo/unite.vim
 Shougo/vimfiler.vim
 " 快速拆开、合并行（gS、gJ）
 AndrewRadev/splitjoin.vim
+" emmet
+mattn/emmet-vim
+" 对齐插件
+junegunn/vim-easy-align
+" 代码注释
+tomtom/tcomment_vim
 =end

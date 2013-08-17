@@ -40,10 +40,10 @@ set hlsearch                          " search highlighting
 set incsearch                         " incremental search
 syntax enable
 set t_Co=256
-try
-  colorscheme Railscasts
-catch
-endtry
+"try
+"  colorscheme Railscasts
+"catch
+"endtry
 
 set nobackup                          " no *~ backup files
 set noswapfile
@@ -95,7 +95,7 @@ autocmd WinLeave * setlocal nocursorline
 autocmd BufWritePre * :%s/\s\+$//e
 
 " comment
-map <Leader><Leader> <Leader>c<space>
+map <Leader><Leader> gcc
 
 " next and prev tab
 noremap <F7> gT
@@ -121,7 +121,11 @@ cnoremap %% <C-R>=expand('%:h').'/'<CR>
 "  custom by myself
 " ======================================
 " Color Scheme for molokai
-colorscheme molokai
+try
+  colorscheme molokai
+catch
+  colorscheme desert
+endtry
 
 let g:molokai_original = 1
 let g:rehash256 = 1
