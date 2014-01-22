@@ -17,7 +17,7 @@ you can link your `~/.vimrc` to any one of them as you wish :)
 
 3. copy files to your home directory:
 
-        git clone git://github.com/ywjno/vundle-vimfiles.git
+        git clone git://github.com/ywjno/vundle-vimfiles.git ～/vundle-vimfiles
 
 4. make a symbolic link `.vim` to `vundle-vimfiles` that you just cloned, or just rename it to `.vim` also be fine:
 
@@ -55,19 +55,17 @@ Launch `vim`, run `:BundleInstall!`
 
 3. some usually used key mappings in normal mode:
 
-    a. `<F1>` to toggle a Calendar window on and off.
+    a. `<F2>` to toggle NERDTree on and off.
 
-    b. `<F2>` to toggle NERDTree on and off.
+    b. `<F4>` to toggle Tagbar window.
 
-    c. `<F4>` to toggle Tagbar window.
+    c. `<F7>` to switch to previous tab, and `<F8>` to the next tab.
 
-    d. `<F7>` to switch to previous tab, and `<F8>` to the next tab.
+    d. hit `<ctrl>p` will launch a quick window to match keywords from your current working directory, not only file name, but also path name. And `<ctrl>w u` will match from your MRU(Mostly Recent Used) files, which is also frequently used.
 
-    e. hit `<ctrl>p` will launch a quick window to match keywords from your current working directory, not only file name, but also path name. And `<ctrl>w u` will match from your MRU(Mostly Recent Used) files, which is also frequently used.
+    e. hit `<leader>` twice to toggle comment on and off.
 
-    f. hit `<leader>` twice to toggle comment on and off.
-
-    g. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
+    f. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
 
 4. Remove tailing whitespace automatically while saving.
 
