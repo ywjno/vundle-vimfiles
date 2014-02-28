@@ -20,7 +20,6 @@ tpope/vim-endwise
 kchmck/vim-coffee-script
 ap/vim-css-color
 tpope/vim-fugitive
-nathanaelkane/vim-indent-guides
 michaeljsmith/vim-indent-object
 pangloss/vim-javascript
 jistr/vim-nerdtree-tabs
@@ -48,6 +47,7 @@ mattn/emmet-vim
 junegunn/vim-easy-align
 tomtom/tcomment_vim
 jiangmiao/auto-pairs
+Yggdroot/indentLine
 ].sort do |x, y|
   x.split(/\//)[1] <=> y.split(/\//)[1]
 end
@@ -106,7 +106,7 @@ ap/vim-css-color
 " 在vim中使用git
 tpope/vim-fugitive
 " 显示对齐线
-nathanaelkane/vim-indent-guides
+Yggdroot/indentLine
 " 快速选择同级的内容
 michaeljsmith/vim-indent-object
 " javascript支持
