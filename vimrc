@@ -15,6 +15,7 @@ Bundle 'gmarik/vundle'
 
 Bundle 'xuhdev/SingleCompile'
 Bundle 'mileszs/ack.vim'
+Bundle 'jiangmiao/auto-pairs'
 Bundle 'vim-scripts/bufexplorer.zip'
 Bundle 'vim-scripts/c.vim'
 Bundle 'c9s/colorselector.vim'

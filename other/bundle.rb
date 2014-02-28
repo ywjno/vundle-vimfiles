@@ -47,6 +47,7 @@ AndrewRadev/splitjoin.vim
 mattn/emmet-vim
 junegunn/vim-easy-align
 tomtom/tcomment_vim
+jiangmiao/auto-pairs
 ].sort do |x, y|
   x.split(/\//)[1] <=> y.split(/\//)[1]
 end
@@ -158,6 +159,8 @@ mattn/emmet-vim
 junegunn/vim-easy-align
 " 代码注释
 tomtom/tcomment_vim
+" 匹配括号引号等
+jiangmiao/auto-pairs
 =end
 
 =begin
