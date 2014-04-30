@@ -48,6 +48,7 @@ junegunn/vim-easy-align
 tomtom/tcomment_vim
 jiangmiao/auto-pairs
 Yggdroot/indentLine
+editorconfig/editorconfig-vim
 ].sort do |x, y|
   x.split(/\//)[1] <=> y.split(/\//)[1]
 end
@@ -161,6 +162,8 @@ junegunn/vim-easy-align
 tomtom/tcomment_vim
 " 匹配括号引号等
 jiangmiao/auto-pairs
+" editorconfig
+editorconfig/editorconfig-vim
 =end
 
 =begin
