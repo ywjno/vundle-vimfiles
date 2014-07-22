@@ -49,6 +49,8 @@ tomtom/tcomment_vim
 jiangmiao/auto-pairs
 Yggdroot/indentLine
 editorconfig/editorconfig-vim
+airblade/vim-gitgutter
+bling/vim-airline
 ].sort do |x, y|
   x.split(/\//)[1] <=> y.split(/\//)[1]
 end
@@ -164,6 +166,10 @@ tomtom/tcomment_vim
 jiangmiao/auto-pairs
 " editorconfig
 editorconfig/editorconfig-vim
+" git 提示
+airblade/vim-gitgutter
+" 状态栏显示
+bling/vim-airline
 =end
 
 =begin
