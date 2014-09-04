@@ -31,9 +31,7 @@ you can link your `~/.vimrc` to any one of them as you wish :)
 
         git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
-7. if you use Powerline under Ubuntu or something which can not show the correct icons/fonts on the bottom, you can check [this link](https://github.com/scotu/ubuntu-mono-powerline), it looks pretty nice.
-
-8. you may need to install `ack` or `silver searcher` first if you use `ack.vim`.
+7. you may need to install `ack` or `silver searcher` first if you use `ack.vim`.
 
 ### Install bundles:
 

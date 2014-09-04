@@ -23,7 +23,6 @@ tpope/vim-fugitive
 michaeljsmith/vim-indent-object
 pangloss/vim-javascript
 jistr/vim-nerdtree-tabs
-Lokaltog/vim-powerline
 tpope/vim-ragtag
 tpope/vim-rails
 tpope/vim-repeat
@@ -116,8 +115,6 @@ michaeljsmith/vim-indent-object
 pangloss/vim-javascript
 " nerdtree的tabs支持
 jistr/vim-nerdtree-tabs
-" vim状态栏
-Lokaltog/vim-powerline
 " 快速生成tag（:h ragtag）
 tpope/vim-ragtag
 " rails支持
