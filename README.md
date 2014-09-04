@@ -17,27 +17,23 @@ you can link your `~/.vimrc` to any one of them as you wish :)
 
 3. copy files to your home directory:
 
-        git clone git://github.com/ywjno/vundle-vimfiles.git ～/vundle-vimfiles
+        git clone git://github.com/ywjno/vundle-vimfiles.git ~/.vim
 
-4. make a symbolic link `.vim` to `vundle-vimfiles` that you just cloned, or just rename it to `.vim` also be fine:
-
-        ln -s vundle-vimfiles ~/.vim
-
-5. link the vimrc to
+4. link the vimrc to
 
         ln -s ~/.vim/vimrc ~/.vimrc
 
-6. if you use GUI version VIM, such as MacVim or GVim, you can also link to `.gvimrc`:
+5. if you use GUI version VIM, such as MacVim or GVim, you can also link to `.gvimrc`:
 
         ln -s ~/.vim/gvimrc ~/.gvimrc
 
-7. Setup [Vundle](https://github.com/gmarik/vundle)
+6. Setup [Vundle](https://github.com/gmarik/vundle)
 
         git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
-8. if you use Powerline under Ubuntu or something which can not show the correct icons/fonts on the bottom, you can check [this link](https://github.com/scotu/ubuntu-mono-powerline), it looks pretty nice.
+7. if you use Powerline under Ubuntu or something which can not show the correct icons/fonts on the bottom, you can check [this link](https://github.com/scotu/ubuntu-mono-powerline), it looks pretty nice.
 
-9. you may need to install `ack` or `silver searcher` first if you use `ack.vim`.
+8. you may need to install `ack` or `silver searcher` first if you use `ack.vim`.
 
 ### Install bundles:
 
@@ -57,15 +53,17 @@ Launch `vim`, run `:BundleInstall!`
 
     a. `<F2>` to toggle NERDTree on and off.
 
-    b. `<F4>` to toggle Tagbar window.
+    b. `<F3>` to toggle CtrlPBuffer on and off.
 
-    c. `<F7>` to switch to previous tab, and `<F8>` to the next tab.
+    c. `<F4>` to toggle Tagbar window.
 
-    d. hit `<ctrl>p` will launch a quick window to match keywords from your current working directory, not only file name, but also path name. And `<ctrl>w u` will match from your MRU(Mostly Recent Used) files, which is also frequently used.
+    d. `<F7>` to switch to previous tab, and `<F8>` to the next tab.
 
-    e. hit `<leader>` twice to toggle comment on and off.
+    e. hit `<ctrl>p` will launch a quick window to match keywords from your current working directory, not only file name, but also path name. And `<ctrl>w u` will match from your MRU(Mostly Recent Used) files, which is also frequently used.
 
-    f. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
+    f. hit `<leader>` twice to toggle comment on and off.
+
+    j. `<tab>` and `<shift><tab>` to increase and decrease the syntax identation.
 
 4. Remove tailing whitespace automatically while saving.
 
