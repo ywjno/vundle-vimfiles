@@ -4,20 +4,21 @@ set nocompatible
 filetype off
 
 if has("win32") || has("win64")
-  set rtp+=$VIM\vimfiles\bundle\vundle
-  call vundle#rc('$VIM\vimfiles\bundle')
+  set rtp+=$VIM\vimfiles\bundle\Vundle.vim
+  call vundle#begin('$VIM\vimfiles\bundle')
 else
-  set rtp+=~/.vim/bundle/vundle/
-  call vundle#rc()
+  set rtp+=~/.vim/bundle/Vundle.vim
+  call vundle#begin()
 endif
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
-<% @vundles.each do |vundle| %><%= "Bundle '#{vundle}'" %>
+<% @vundles.each do |vundle| %><%= "Plugin '#{vundle}'" %>
 <% end %>
-<% @theme_vundles.each do |vundle| %><%= "Bundle '#{vundle}'" %>
+<% @theme_vundles.each do |vundle| %><%= "Plugin '#{vundle}'" %>
 <% end %>
 
+call vundle#end()
 filetype plugin indent on
 
 " =============

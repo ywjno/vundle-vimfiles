@@ -9,7 +9,7 @@ you can link your `~/.vimrc` to any one of them as you wish :)
 ## Usage
 
 ### Installation and Requisites:
-( **Windows users** see [Vundle for Windows](https://github.com/gmarik/vundle/wiki/Vundle-for-Windows) PLZ)
+( **Windows users** see [Vundle for Windows](https://github.com/gmarik/Vundle.vim/wiki/Vundle-for-Windows) PLZ)
 
 1. BACKUP your `.vim` directory and `.vimrc` first.(IMPORTANT!)
 
@@ -27,19 +27,19 @@ you can link your `~/.vimrc` to any one of them as you wish :)
 
         ln -s ~/.vim/gvimrc ~/.gvimrc
 
-6. Setup [Vundle](https://github.com/gmarik/vundle)
+6. Setup [Vundle](https://github.com/gmarik/Vundle.vim)
 
-        git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+        git clone git://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 7. you may need to install `ack` or `silver searcher` first if you use `ack.vim`.
 
 ### Install bundles:
 
-Launch `vim`, run `:BundleInstall`  (or `vim +BundleInstall +qall` for CLI lovers)
+Launch `vim`, run `:PluginInstall`  (or `vim +PluginInstall +qall` for CLI lovers)
 
 ### Update bundles:
 
-Launch `vim`, run `:BundleInstall!`
+Launch `vim`, run `:PluginUpdate`
 
 ### Features and Key Mappings:
 
