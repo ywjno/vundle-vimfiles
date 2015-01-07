@@ -34,8 +34,9 @@ garbas/vim-snipmate
 MarcWeber/vim-addon-mw-utils
 tomtom/tlib_vim
 honza/vim-snippets
-Shougo/neocomplcache.vim
-Shougo/neosnippet
+Shougo/neocomplete.vim
+Shougo/neosnippet.vim
+Shougo/neosnippet-snippets
 terryma/vim-multiple-cursors
 xuhdev/SingleCompile
 thinca/vim-quickrun
@@ -138,9 +139,11 @@ tomtom/tlib_vim
 " 代码片段（garbas/vim-snipmate）
 honza/vim-snippets
 " 代码提示
-Shougo/neocomplcache.vim
-" （Shougo/neocomplcache.vim依赖）
-Shougo/neosnippet
+Shougo/neocomplete.vim
+" （Shougo/neocomplete.vim依赖）
+Shougo/neosnippet.vim
+" （Shougo/neosnippet.vim依赖）
+Shougo/neosnippet-snippets.vim
 " 多重选取
 terryma/vim-multiple-cursors
 " 快速编译
